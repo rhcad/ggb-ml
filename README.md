@@ -5,7 +5,8 @@
 ## 练习
 
 - [sum_titles_1.py](sum_titles_1.py): 从GGB素材的标题中提取英文单词及其频次。
-  ![](screenshot/sum_titles_1.png)
+
+  ![](screenshot/sum_titles_1b.png)
 
 ## 参考资料
 

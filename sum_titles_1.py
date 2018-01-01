@@ -6,6 +6,7 @@ import sys
 import re
 import json
 import nltk
+from nltk.stem import PorterStemmer as Stemmer
 import itertools
 from operator import *
 
@@ -25,12 +26,16 @@ tokens = itertools.imap(lambda t: set(re.split(r'\s', re.sub(r'[^a-z]', ' ', t))
 tokens = list(itertools.chain(*tokens))
 # 太短单词和停用词移除
 tokens = list(itertools.ifilter(lambda t: len(t) > 2 and t not in stops, tokens))
-print('%d tokens' % len(tokens))
 
-# 计算单词的分布频率并保存
+# 词干提取. 但还不能正确识别 angle 和 triangle 的词干
+st = Stemmer()
+tokens = map(lambda t: st.stem(t), tokens)
+print('%d tokens' % len(set(tokens)))
+
+# 计算单词的频率分布并保存
 freq = nltk.FreqDist(tokens)
 lines = ['%s\t%d\n' % (k, v) for k, v in sorted(freq.items(), key=itemgetter(1), reverse=True)]
 open('data/_titles.txt', 'w').writelines(lines)
 
-# 绘制前N个单词的分布频率折线图（需要安装matplotlib库）
+# 绘制前N个单词的频率分布折线图（需要安装matplotlib库）
 freq.plot(80)
