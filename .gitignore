@@ -1,0 +1,14 @@
+# OS junk files
+[Tt]humbs.db
+*.DS_Store
+*.bak*
+*.tmp
+*.log
+._*
+
+# WebStorm Files
+.idea/
+
+# Project Files
+*.pyc
+data/_*
