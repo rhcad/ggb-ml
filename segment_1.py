@@ -27,6 +27,12 @@ c = thu1.cut(sentence)
 c = [text + '/' + tag + tags.get(tag, '') for text, tag in c]
 print('  '.join(c))
 
+# 在/p介词  △/v动词  ABC/x其它  中/f方位词  ，/w标点  AB/x其它  =/w标点  AC/x其它  ，/w标点  △/v动词
+# ABC/x其它  的/u助词  外接/v动词  圆⊙O/ns地名  的/u助词  弦AD/x其它  的/u助词  延长线/nz其它专名
+# 交BC/x其它  的/u助词  延长线/nz其它专名  于/p介词  点E．/m数词
+# 求证/v动词  ：/w标点  △/v动词  ABD/x其它  ~/w标点  △AEB．/x其它
+
 # c = jieba.cut(sentence, cut_all=True)  # True完全模式，False精确模式(本例句解析失败)
 c = analyse.extract_tags(sentence)  # https://my.oschina.net/kakablue/blog/314513
 print('  '.join(c))
+# ABC  延长线  外接圆  AC  ABD  AD  BC  于点  AB  AEB  求证
