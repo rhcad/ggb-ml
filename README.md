@@ -5,8 +5,12 @@
 ## 练习
 
 - [sum_titles_1.py](sum_titles_1.py): 从GGB素材的标题中提取英文单词及其频次。
+  使用了停用词移除、单词拆分、词干提取、频率分布等方法。
 
-  ![](screenshot/sum_titles_1b.png)
+  ![](screenshot/sum_titles_1.png)
+
+- [sum_titles_2.py](sum_titles_2.py): 从GGB素材的标题中提取所有几何名词及其搭配。
+  使用了标识化处理、相邻文本、词性标注等方法。
 
 ## 参考资料
 
