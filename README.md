@@ -6,3 +6,7 @@
 
 - [sum_titles_1.py](sum_titles_1.py): 从GGB素材的标题中提取英文单词及其频次。
   ![](screenshot/sum_titles_1.png)
+
+## 参考资料
+
+- 《NLTK基础教程——用NLTK和Python库构建机器学习应用》
