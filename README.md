@@ -12,6 +12,8 @@
 - [sum_titles_2.py](sum_titles_2.py): 从GGB素材的标题中提取所有几何名词及其搭配。
   使用了标识化处理、相邻文本、词性标注等方法。
 
+- [segment_1.py](segment_1.py): 基于清华THULAC中文词法分析工具包试验几题文本解析效果。
+
 ## 参考资料
 
 - 《NLTK基础教程——用NLTK和Python库构建机器学习应用》
