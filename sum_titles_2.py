@@ -19,7 +19,8 @@ stops = [s.strip() for s in open('data/stopwords.txt').readlines()]
 titles = json.load(file('data/titles.json'))
 print('%d titles' % len(titles))
 
-# nltk.download('stopwords')
+nltk.download('stopwords')
+nltk.download('punkt')
 tokens = nltk.tokenize.word_tokenize('\n'.join(titles))
 text = nltk.text.Text(tokens)
 text.collocations(num=100)
@@ -29,7 +30,7 @@ tokens = list(itertools.chain(*tokens))
 tokens = list(itertools.ifilter(lambda t: len(t) > 2 and t not in stops, tokens))
 print('%d tokens' % len(set(tokens)))
 
-# nltk.download('averaged_perceptron_tagger')
+nltk.download('averaged_perceptron_tagger')
 tagged = nltk.pos_tag(tokens)
 open('data/_tagged.txt', 'w').write('\n'.join([word + '\t' + tag for word, tag in tagged]))
 
