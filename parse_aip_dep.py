@@ -10,7 +10,7 @@ try:
 except NameError:
     pass
 
-lines = [(re.sub(r'^\d+\.\s*[^A-Z]+|（.+$|\n', '', t),
+lines = [(re.sub(r'^\d+\.\s*[^A-Z]+|(（|\().+$|\n', '', t),
           re.sub(r'^\d+\.\s*|[A-Z].+$|\n', '', t))
          for t in open('data/aip_dep_raw.txt').readlines()
          if re.search(ur'^\d+\.\s*[\u4e00-\u9fa5]+[A-Z]+', t.decode('utf-8'))]
