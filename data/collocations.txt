@@ -89,3 +89,31 @@ prism/棱镜
 rettangolo/矩形
 triangolo equilatero/等边三角形
 trigonometric functions/三角函数
+nombre dérivé/派生的数量
+trắc nghiệm/测试
+números/数字
+quadratische funktion/二次函数
+conic sections/圆锥曲线 二次曲线 圆锥截面
+rectangular prism/直角棱镜
+interpretación geométrica/解析几何
+funzione esponenziale/指数函数
+cross section/截面
+triangle/三角形
+rectangle/长方形 矩形
+polar coordinates/极坐标
+linear programming/线性方程
+exponential growth/指数增长
+shortest path/最短路径
+binomische formel/二项式
+binomial distribution/二项式分布
+vergelijkingen oplossen/方程组求解
+harmonic motion/简谐运动
+circunferencia/环
+circumferentia/环
+linear regression/线性回归
+linearer funktionen/线性方程
+posizioni reciproche/相互位置
+exact values/精确值
+circle theorem/圆定理
+logaritmikus egyenlet/对数方程
+
