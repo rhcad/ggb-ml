@@ -1,0 +1,91 @@
+parallel lines/平行线
+pythagorean theorem/勾股定理
+unit circle/单位圆
+continuum/连续
+perpendicular bisector/垂直平分线 中垂线
+lugar geométrico/轨迹
+equilateral triangle/等边三角形
+función cuadrática/二次函数
+una función/一次函数
+angle bisector/角平分线
+simetría axial/轴对称
+absolute value/绝对值
+una recta/一元
+circunferencia/环状
+circumferentia/环状
+vertex/顶点
+vertex form/顶点格式
+angry birds/愤怒的小鸟
+test question/测试问题
+graphical method/图解法
+symétrie centrale/中心对称
+interior angles/内角
+ángulos interiores/内角
+problem set/问题集 习题集
+linear equations/线性方程组
+función lineal/线性函数
+fungsi/该功能
+surface area/表面积
+números enteros/整数
+right triangle/直角三角形
+standard form/标准型
+triangle/三角形
+symétrie axiale/轴对称
+similar triangles/相似三角形
+angle sum/角之和
+polígonos regulares/正多边形
+regular polygons/正多边形
+polígono regular/正多边形
+ambiguous case/二义性
+gogeometry action/几何作用
+number line/数轴
+geometría analítica/解析几何
+lineare funktionen/线性函数
+función exponencial/指数函数
+straight line/直线
+raíz cuadrada/平方根
+ángulos/角
+perpendicular lines/垂线
+simmetria/对称
+symmetric/对称
+exterior angles/外角
+isosceles triangle/等腰三角形
+função quadrática/二次函数
+string art/弦乐艺术
+relación/关系
+coordinate plane/坐标平面
+equations/方程
+triángulo equilátero/等边三角形
+normal distribution/正态分布
+exponential functions/指数函数
+grafikus megoldása/图解法
+phương trình/方程
+secondary math/中学数学
+circonferenza/周长
+radice quadrata/平方根
+arc length/弧长
+programación lineal/线性规划
+period/周期
+fonction affine/仿射函数
+Ricardo's theorem/李嘉图定理
+best fit/最佳拟合
+punto medio/中点
+cross section/截面
+slope intercept/斜率截距
+slope intercept form/斜截式
+intercept/截距
+slope/斜率
+golden ratio/黄金比例
+refleksi objek/对称图形
+funzione esponenziale/指数函数
+tessellation/镶嵌
+rette parallele/平行线
+integral definida/定积分
+definite integral/定积分
+indefinite integral/不定积分
+quadratic functions/二次函数
+rectangular prism/矩形截面
+prism/棱镜
+rettangolo/矩形
+triangolo equilatero/等边三角形
+trigonometric functions/三角函数

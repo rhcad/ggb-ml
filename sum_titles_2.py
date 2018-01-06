@@ -23,7 +23,7 @@ nltk.download('stopwords')
 nltk.download('punkt')
 tokens = nltk.tokenize.word_tokenize('\n'.join(titles))
 text = nltk.text.Text(tokens)
-text.collocations(num=100)
+text.collocations(num=200)  # 词组搭配，见 collocations.txt
 
 tokens = itertools.imap(lambda t: set(re.split(r'\s', re.sub(r'[^a-z]', ' ', t))), titles)
 tokens = list(itertools.chain(*tokens))
