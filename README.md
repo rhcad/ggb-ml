@@ -4,7 +4,7 @@
 
 ## 练习
 
-- [sum_titles_1.py](sum_titles_1.py): 从GGB素材的标题中提取英文单词及其频次。
+- [sum_titles_1.py](sum_titles_1.py): 从GGB素材的标题中提取单词及频次。
   使用了停用词移除、单词拆分、词干提取、频率分布等方法。
 
   ![](screenshot/sum_titles_1.png)
